@@ -24,6 +24,7 @@ img {
 
 <div class="jumbotron text-center" style="margin-bottom:0">
   <img src="images/nova_ori.jpg" alt="Nova_logo" width="300" height="100"> 
+  <p id="demo"></p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -51,8 +52,9 @@ img {
     <div class="col-sm-4">
       <h2>About Nova Tech</h2>
       <!--<h5>Photo of Nova Tech:</h5>-->
+      <img src="images/teamPic.png" alt="Team Picture" width="350" height="200">
       <p>Nova Tech was founded in September 2019. We started with the mission of providing Artificial Intelligence solutions to our clients to help their businesses thrive. Artificial Intelligence is the theory and development of computer programs that will be able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. AI is the future and we are here to implement robotic processes to reduce cost, reach new customers, and increase productivity. </p>
-      <!--<img src="images/teamPic.png" alt="Team Picture" width="335" height="350">-->
+      
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <h3>Team Member Bio Links</h3>
      <!-- <p>Lorem ipsum dolor sit ame.</p>-->
@@ -74,18 +76,19 @@ img {
     </div>
     <div class="col-sm-8">
       <h2>Project 1</h2>
-      <h5>Inquiry Letters, Nov. 20, 2019</h5>
-      <img src="images/futureSt.jpg" alt="Prospective Students" width="715" height="250">
+      
+     <h5>Robotic Process Automation, Oct. 17, 2019</h5>
+     <img src="images/automation.jpg" alt="Robotic Process automation" width="715" height="250">
+    <!--<img src="images/futureSt.jpg" alt="Prospective Students" width="715" height="250">-->
       
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
-      <h2>Project 2</h2>
-      <h5>Grade Submissions from Professor to Student, Nov. 20, 2019</h5>
-       <img src="images/automation.jpg" alt="Robotic Process automation" width="715" height="250">
-      
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>System Testing</h2>
+      <h5>Quality Assurance, Nov. 20, 2019</h5>
+       <!--<img src="images/automation.jpg" alt="Robotic Process automation" width="715" height="250">-->
+       <img src="images/qa.jpg" alt="Testing" width="715" height="250">
+      <p>Unit testing checks quickly re-test the workflows to see if everything works as expected or if something got broken, helps in finding bugs early in the development.I design and execute test cases: write scripts to check for errors or bugs. Once I enter data, check if it is stored properly, and retrieve information correctly. If not, identify bugs, reproduce them, and correct them, report problems in a bug tracking system, follow-up towards resolution. I will work with Jason, my technical analyst. </p>
     </div>
   </div>
 </div>
@@ -98,3 +101,7 @@ img {
 
 </body>
 </html>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
